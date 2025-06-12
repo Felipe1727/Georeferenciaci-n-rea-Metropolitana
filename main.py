@@ -231,9 +231,9 @@ def main():
             llave = obtener_llave()
 
             if os.path.exists(ruta_archivo):
-                df = pd.read_excel(ruta_archivo)
+                df = pd.read_excel(ruta_archivo, index_col=0)
             else:
-                df = pd.read_excel(Path("estandarizado") / "principales_área_metropolitana.xlsx")
+                df = pd.read_excel(Path("estandarizado") / "principales_área_metropolitana.xlsx", index_col=0)
             am_vías_principales_coordenadas = reverse_geocoding(df.copy(), api_key=llave)
             am_vías_principales_coordenadas.to_excel(Path("coordenadas") / "coordenadas.xlsx")
 
