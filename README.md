@@ -65,4 +65,4 @@ El script crea automáticamente la estructura de carpetas y permite seleccionar 
 
 Puedes consultar la documentación completa del proyecto en el siguiente enlace:
 
-🔗 [Documentación del módulo `main.py`](https://felipe1727.github.io/Georeferenciaci-n-rea-Metropolitana/main.html)
+🔗 [Documentación del módulo `main.py`](https://felipe1727.github.io/Georeferenciacion-Area-Metropolitana/main.html)
