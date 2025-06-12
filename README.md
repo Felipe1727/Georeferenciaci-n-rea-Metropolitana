@@ -15,12 +15,12 @@ Este repositorio contiene un script en Python (`main.py`) que permite:
 
 ### Usando pip:
 ```bash
-pip install pandas folium opencage tkinter
+pip install pandas folium opencage tkinter openpyxl
 ```
 
 ### Usando conda (recomendado si usas Anaconda o Miniconda):
 ```bash
-conda install -c conda-forge pandas folium opencage geocoder tk
+conda install -c conda-forge pandas folium opencage geocoder tk openpyxl
 ```
 
 - `pandas`: manipulación de datos.
@@ -65,4 +65,4 @@ El script crea automáticamente la estructura de carpetas y permite seleccionar 
 
 Puedes consultar la documentación completa del proyecto en el siguiente enlace:
 
-🔗 [Documentación del módulo `main.py`](https://felipe1727.github.io/Georeferenciacion-Area-Metropolitana/main.html)
+🔗 [Documentación del módulo `main.py`](https://felipe1727.github.io/Georreferenciacion-Area-Metropolitana/main.html)
