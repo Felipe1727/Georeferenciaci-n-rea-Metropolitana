@@ -12,15 +12,21 @@ Este repositorio contiene un script en Python (`main.py`) que permite:
 ## Requisitos
 
 - Python 3.7+
-- Dependencias (instalar con pip):
-  ```bash
-  pip install pandas folium opencage tkinter
-  ```
-  - `pandas`: manipulación de datos.
-  - `folium`: visualización de mapas.
-  - `opencage-geocoder`: reverse geocoding.
-  - `tkinter`: selección de archivos vía GUI.
 
+### Usando pip:
+```bash
+pip install pandas folium opencage tkinter
+```
+
+### Usando conda (recomendado si usas Anaconda o Miniconda):
+```bash
+conda install -c conda-forge pandas folium opencage geocoder tk
+```
+
+- `pandas`: manipulación de datos.
+- `folium`: visualización de mapas.
+- `opencage-geocoder`: reverse geocoding.
+- `tkinter`: selección de archivos vía GUI.
 
 ## Estructura de Directorios
 
@@ -55,13 +61,8 @@ El script crea automáticamente la estructura de carpetas y permite seleccionar 
    - Archivos Excel en `estandarizado/` y `coordenadas/`.
    - Mapas HTML en `mapas/` y `mapas/filtrados/`.
 
-## Generar documentación (docstrings)
+## Documentación
 
-Para extraer los docstrings y crear un manual:
+Puedes consultar la documentación completa del proyecto en el siguiente enlace:
 
-- Con **pdoc** (HTML/Markdown):
-  ```bash
-  pip install pdoc
-  pdoc -html main.py --output-dir docs
-  ```
-
+🔗 [Documentación del módulo `main.py`](https://felipe1727.github.io/Georeferenciaci-n-rea-Metropolitana/main.html)
